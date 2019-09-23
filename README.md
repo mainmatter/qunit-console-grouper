@@ -6,8 +6,8 @@ qunit-console-grouper
 
 [npm-badge]: https://img.shields.io/npm/v/qunit-console-grouper.svg
 [npm-badge-url]: https://www.npmjs.com/package/qunit-console-grouper
-[travis-badge]: https://img.shields.io/travis/simplabs/qunit-console-grouper/master.svg
-[travis-badge-url]: https://travis-ci.org/simplabs/qunit-console-grouper
+[travis-badge]: https://img.shields.io/travis/com/simplabs/qunit-console-grouper/master.svg
+[travis-badge-url]: https://travis-ci.com/simplabs/qunit-console-grouper
 
 [QUnit](https://qunitjs.com/) plugin that groups console messages by test
 
