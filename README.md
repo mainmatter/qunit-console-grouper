@@ -11,7 +11,7 @@ qunit-console-grouper
 
 [QUnit](https://qunitjs.com/) plugin that groups console messages by test
 
-![Screenshot of qunit-console-grouper][docs/screenshot.png]
+![Screenshot of qunit-console-grouper](docs/screenshot.png)
 
 
 Install
