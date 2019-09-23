@@ -1,11 +1,17 @@
 /coverage
+/docs
 /tests
+*.test.js
 **/.gitkeep
+*.tgz
+.DS_Store
 .editorconfig
 .ember-cli
+.eslintcache
 .eslintignore
 .eslintrc.js
 .gitignore
+.prettierrc.js
 .travis.yml
 .watchmanconfig
 ember-cli-build.js
@@ -15,3 +21,6 @@ yarn.lock
 # ember-try
 .node_modules.ember-try/
 package.json.ember-try
+
+# IntelliJ
+/.idea
