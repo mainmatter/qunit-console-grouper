@@ -1,0 +1,22 @@
+---
+language: node_js
+node_js:
+  - "8"
+
+branches:
+  except:
+    - /^dependabot\/.*$/
+
+addons:
+  chrome: stable
+
+cache:
+  yarn: true
+
+install:
+  - yarn install --no-lockfile
+
+script:
+  - yarn lint
+  - yarn build
+  - yarn test
