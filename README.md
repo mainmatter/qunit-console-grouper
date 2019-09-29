@@ -1,4 +1,4 @@
-qunit-console-grouper
+🐟  qunit-console-grouper  🐟
 ==============================================================================
 
 [![TravisCI Build Status][travis-badge]][travis-badge-url]
@@ -14,7 +14,7 @@ qunit-console-grouper
 ![Screenshot of qunit-console-grouper](docs/screenshot.png)
 
 
-Install
+🚀  Install
 ------------------------------------------------------------------------------
 
 ### npm
@@ -41,7 +41,7 @@ Load `qunit-console-grouper.js` *after* `qunit.js`:
 ```
 
 
-License
+📃  License
 ------------------------------------------------------------------------------
 
 qunit-console-grouper is developed by and &copy;
