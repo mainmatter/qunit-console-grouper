@@ -17,19 +17,20 @@
 🚀  Install
 ------------------------------------------------------------------------------
 
-### npm
 
-```bash
-npm install --save-dev qunit-console-grouper
-```
-
-or using [`yarn`](https://yarnpkg.com/):
+### [`yarn`](https://yarnpkg.com/):
+(Recommended for Ember projects)
 
 ```bash
 yarn add --dev qunit-console-grouper
 ```
 
-(This is the recommended method for Ember projects.)
+### [`npm`](https://www.npmjs.com/):
+
+```bash
+npm install --save-dev qunit-console-grouper
+```
+
 
 ### `<script>` Tag
 
