@@ -25,24 +25,24 @@
     "broccoli-funnel": "^2.0.2"
   },
   "devDependencies": {
-    "ember-cli": "~3.13.0",
-    "ember-cli-babel": "^7.11.1",
+    "ember-cli": "~3.14.0",
+    "ember-cli-babel": "^7.13.0",
     "ember-cli-dependency-checker": "^3.2.0",
-    "ember-cli-htmlbars": "^4.0.1",
-    "ember-cli-htmlbars-inline-precompile": "^3.0.0",
-    "ember-cli-inject-live-reload": "^2.0.1",
-    "ember-load-initializers": "^2.1.0",
+    "ember-cli-htmlbars": "^4.0.9",
+    "ember-cli-htmlbars-inline-precompile": "^3.0.1",
+    "ember-cli-inject-live-reload": "^2.0.2",
+    "ember-load-initializers": "^2.1.1",
     "ember-maybe-import-regenerator": "^0.1.6",
-    "ember-qunit": "^4.5.1",
-    "ember-resolver": "^5.3.0",
-    "ember-source": "~3.13.2",
-    "eslint": "^6.4.0",
-    "eslint-config-prettier": "^6.3.0",
+    "ember-qunit": "^4.6.0",
+    "ember-resolver": "^6.0.0",
+    "ember-source": "~3.14.3",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.1",
     "jest": "^24.9.0",
-    "lerna-changelog": "^0.8.2",
+    "lerna-changelog": "^0.8.3",
     "loader.js": "^4.7.0",
-    "prettier": "1.18.2"
+    "prettier": "1.19.1"
   },
   "engines": {
     "node": "8.* || 10.* || >= 12.*"
