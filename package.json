@@ -22,7 +22,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "broccoli-funnel": "^2.0.2"
+    "broccoli-funnel": "^3.0.2"
   },
   "devDependencies": {
     "ember-cli": "~3.18.0",
