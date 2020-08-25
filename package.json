@@ -42,7 +42,7 @@
     "jest": "^26.4.2",
     "lerna-changelog": "^1.0.1",
     "loader.js": "^4.7.0",
-    "prettier": "^2.0.5"
+    "prettier": "^2.1.0"
   },
   "engines": {
     "node": "10.* || 12.* || >= 14.*"
