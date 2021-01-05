@@ -34,6 +34,11 @@ jobs:
         env:
           QUNIT_CONSOLE_GROUPER: "true"
 
+      - run: yarn ember test
+        env:
+          QUNIT_CONSOLE_GROUPER: "true"
+          USE_EMBROIDER: "true"
+
   release:
     name: Release
     runs-on: ubuntu-latest
