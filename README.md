@@ -29,7 +29,28 @@ or using [`yarn`](https://yarnpkg.com/):
 yarn add --dev qunit-console-grouper
 ```
 
-(This is the recommended method for Ember projects.)
+### Ember projects using `ember-qunit` v5.x and above
+
+Import and run the `setup` function in your `test-helper.js` file:
+
+```js
+// tests/test-helper.js
+import * as QUnit from 'qunit';
+import * as ConsoleGrouper from 'qunit-console-grouper';
+
+//...
+
+ConsoleGrouper.setup(QUnit);
+
+setApplication(Application.create(config.APP));
+
+start();
+```
+
+### Ember projects using `ember-qunit` v4.x and below
+
+`qunit-console-grouper` will automatically start itself. No extra setup
+required :tada:.
 
 ### `<script>` Tag
 
