@@ -3,6 +3,8 @@
 
 const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
+const { USE_EMBROIDER } = process.env;
+
 module.exports = function (defaults) {
   let app = new EmberAddon(defaults, {
     // Add options here
@@ -14,6 +16,11 @@ module.exports = function (defaults) {
     This build file does *not* influence how the addon or the app using it
     behave. You most likely want to be modifying `./index.js` or app's build file
   */
+
+  if (USE_EMBROIDER) {
+    let { Webpack } = require('@embroider/webpack');
+    return require('@embroider/compat').compatBuild(app, Webpack);
+  }
 
   return app.toTree();
 };
