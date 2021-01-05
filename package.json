@@ -25,6 +25,7 @@
     "broccoli-funnel": "^3.0.3"
   },
   "devDependencies": {
+    "@ember/test-helpers": "2.1.4",
     "@embroider/compat": "0.36.0",
     "@embroider/core": "0.36.0",
     "@embroider/webpack": "0.36.0",
@@ -46,7 +47,8 @@
     "jest": "26.6.3",
     "lerna-changelog": "1.0.1",
     "loader.js": "4.7.0",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "qunit": "2.13.0"
   },
   "engines": {
     "node": "10.* || 12.* || >= 14.*"
