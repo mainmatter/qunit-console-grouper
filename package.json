@@ -38,7 +38,7 @@
     "ember-maybe-import-regenerator": "0.1.6",
     "ember-qunit": "4.6.0",
     "ember-resolver": "8.0.2",
-    "ember-source": "3.24.0",
+    "ember-source": "3.24.1",
     "eslint": "7.17.0",
     "eslint-config-prettier": "7.1.0",
     "eslint-plugin-prettier": "3.3.1",
