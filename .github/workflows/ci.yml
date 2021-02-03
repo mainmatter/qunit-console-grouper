@@ -35,6 +35,7 @@ jobs:
           QUNIT_CONSOLE_GROUPER: "true"
 
       - run: yarn ember test
+        continue-on-error: true
         env:
           QUNIT_CONSOLE_GROUPER: "true"
           USE_EMBROIDER: "true"
