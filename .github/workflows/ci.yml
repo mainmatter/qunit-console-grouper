@@ -30,15 +30,31 @@ jobs:
       - run: yarn lint
       - run: yarn test --coverage
 
-      - run: yarn ember test
-        env:
-          QUNIT_CONSOLE_GROUPER: "true"
+  compatibility:
+    name: "Ember Compat: ember-qunit: ${{ matrix.ember-qunit-version }} | Embroider: ${{ matrix.embroider }}"
+    runs-on: ubuntu-latest
 
-      - run: yarn ember test
-        continue-on-error: true
+    strategy:
+      matrix:
+        ember-qunit-version: [4, 5]
+        embroider: ["false"]
+        include:
+          # embroider + ember-qunit v5 is disabled for now until it actually works...
+          - ember-qunit-version: 4
+            embroider: "true"
+
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 10
+
+      - run: yarn install --frozen-lockfile
+      - run: yarn ember try:one --config-path tests/dummy/config/ember-try.js ember-qunit-${{ matrix.ember-qunit-version }}
         env:
           QUNIT_CONSOLE_GROUPER: "true"
-          USE_EMBROIDER: "true"
+          USE_EMBROIDER: "${{ matrix.embroider }}"
 
   release:
     name: Release
