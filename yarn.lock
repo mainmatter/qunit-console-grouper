@@ -979,10 +979,10 @@
   resolved "https://registry.yarnpkg.com/@ember/edition-utils/-/edition-utils-1.2.0.tgz#a039f542dc14c8e8299c81cd5abba95e2459cfa6"
   integrity sha512-VmVq/8saCaPdesQmftPqbFtxJWrzxNGSQ+e8x8LLe3Hjm36pJ04Q8LeORGZkAeOhldoUX9seLGmSaHeXkIqoog==
 
-"@ember/test-helpers@2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-2.4.2.tgz#e5be97e316dc502d7da933461135fbcb9254726e"
-  integrity sha512-++k/dXZ0IeOQLSm0Yu5QuCRe9UoptuckMhaXHY37VLb1varLHRuP8908kigVNt9c5waiocaK4jPjDBkKYRLlfA==
+"@ember/test-helpers@2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-2.4.3.tgz#c6dc4fa6c53238174de64ca396eac3cbc99b8006"
+  integrity sha512-8oHoLHHV2FFto49KPFNM+WL+jOy37EzUUjwVxOSUOa9X8Ab9OJKHzpKUozOWsSUPDyB0AHQEGNm5nGcXb1kvAw==
   dependencies:
     "@ember/test-waiters" "^3.0.0"
     broccoli-debug "^0.6.5"
@@ -9486,15 +9486,10 @@ miller-rabin@^4.0.0:
     bn.js "^4.0.0"
     brorand "^1.0.1"
 
-mime-db@1.49.0:
+mime-db@1.49.0, "mime-db@>= 1.43.0 < 2":
   version "1.49.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.49.0.tgz#f3dfde60c99e9cf3bc9701d687778f537001cbed"
   integrity sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==
-
-"mime-db@>= 1.43.0 < 2":
-  version "1.50.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.50.0.tgz#abd4ac94e98d3c0e185016c67ab45d5fde40c11f"
-  integrity sha512-9tMZCDlYHqeERXEHO9f/hKfNXhre5dK2eE/krIvUjZbS2KPcqGDfNShIWS1uW9XOTKQKqK6qbeOci18rbfW77A==
 
 mime-types@2.1.32, mime-types@^2.1.12, mime-types@^2.1.18, mime-types@^2.1.26, mime-types@~2.1.24:
   version "2.1.32"
