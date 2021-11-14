@@ -9508,15 +9508,10 @@ miller-rabin@^4.0.0:
     bn.js "^4.0.0"
     brorand "^1.0.1"
 
-mime-db@1.49.0:
+mime-db@1.49.0, "mime-db@>= 1.43.0 < 2":
   version "1.49.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.49.0.tgz#f3dfde60c99e9cf3bc9701d687778f537001cbed"
   integrity sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==
-
-"mime-db@>= 1.43.0 < 2":
-  version "1.50.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.50.0.tgz#abd4ac94e98d3c0e185016c67ab45d5fde40c11f"
-  integrity sha512-9tMZCDlYHqeERXEHO9f/hKfNXhre5dK2eE/krIvUjZbS2KPcqGDfNShIWS1uW9XOTKQKqK6qbeOci18rbfW77A==
 
 mime-types@2.1.32, mime-types@^2.1.12, mime-types@^2.1.18, mime-types@^2.1.26, mime-types@~2.1.24:
   version "2.1.32"
@@ -11183,10 +11178,10 @@ release-it-lerna-changelog@3.1.0:
     validate-peer-dependencies "^1.0.0"
     which "^2.0.2"
 
-release-it@14.11.6:
-  version "14.11.6"
-  resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.11.6.tgz#a285eaac25f9f3a6d47e688911e539af53a74446"
-  integrity sha512-6BNcuzFZHThBUBJ/xYw/bxZ+58CAwrwf1zgmjq2Ibl3nlDZbjphHG6iqxkJu7mZ8TIWs6NjloEAhqpjeXoN//Q==
+release-it@14.11.7:
+  version "14.11.7"
+  resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.11.7.tgz#458696bad46b9ea28ef42df85de626cd7454ebfb"
+  integrity sha512-m4p9+x6AEQPczc96Jyg6dGFeovpJVgRCtA1lxeIgTmQVt9dutYPkkjZeJngZgUJ17/Lb1bx6ZzW2qsKmopKnbQ==
   dependencies:
     "@iarna/toml" "2.2.5"
     "@octokit/rest" "18.10.0"
