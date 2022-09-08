@@ -45,5 +45,5 @@ Load `qunit-console-grouper.js` *after* `qunit.js`:
 ------------------------------------------------------------------------------
 
 qunit-console-grouper is developed by and &copy;
-[simplabs GmbH](http://simplabs.com) and contributors. It is released under the
+[Mainmatter GmbH](http://mainmatter.com) and contributors. It is released under the
 [MIT License](https://github.com/simplabs/qunit-console-grouper/blob/master/LICENSE.md).
