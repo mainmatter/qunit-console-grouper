@@ -42,7 +42,7 @@
     "ember-resolver": "8.0.3",
     "ember-source": "3.28.9",
     "ember-try": "2.0.0",
-    "eslint": "7.32.0",
+    "eslint": "8.24.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
     "jest": "26.6.3",
