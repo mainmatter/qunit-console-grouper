@@ -51,7 +51,7 @@
     "prettier": "2.7.1",
     "release-it": "14.11.8",
     "release-it-lerna-changelog": "3.1.0",
-    "qunit": "2.17.2"
+    "qunit": "2.19.1"
   },
   "engines": {
     "node": "10.* || 12.* || >= 14.*"
